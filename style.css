@@ -1,0 +1,55 @@
+.container {
+  background-color: #CCCCCC;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  border: black solid 1px;
+  width: 542px;
+  height: 185px;
+  justify-content: space-around;
+}
+
+.picture-box {
+  background-image: url(duck.png);
+  background-repeat: no-repeat;
+  position: left top;
+  box-sizing: border-box;
+  width: 115px;
+  height: 142px;
+  border-right: black solid 1px;
+}
+
+.data-box {
+  font-family: arial;
+  font-size: 14px;
+  padding: 10px;
+  width: 370px;
+  height: 142px;
+  text-align: left;
+
+}
+h2 {
+  font-size: 24px;
+}
+
+dt {
+  margin-right: 60px;
+  font-weight: bold;
+  width: 17px;
+  display: inline-block;
+  text-align: left;
+}
+
+dd {
+  margin-left: : 50px;
+  width: 150px;
+  display: inline-block;
+  text-align: left;
+}
+.icon {
+  background-image: url(edit-icon.png);
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+
+}
