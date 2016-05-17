@@ -10,26 +10,23 @@
 }
 
 .picture-box {
-  background-image: url(duck.png);
-  background-repeat: no-repeat;
-  position: left top;
-  box-sizing: border-box;
-  width: 115px;
-  height: 142px;
-  border-right: black solid 1px;
+  margin: auto;
 }
 
 .data-box {
+  margin-top: 10px;
   font-family: arial;
   font-size: 14px;
   padding: 10px;
   width: 370px;
   height: 142px;
   text-align: left;
-
+  border-left: black solid 1px;
 }
+
 h2 {
   font-size: 24px;
+  margin-top: 0;
 }
 
 dt {
@@ -46,10 +43,9 @@ dd {
   display: inline-block;
   text-align: left;
 }
-.icon {
-  background-image: url(edit-icon.png);
-  position: absolute;
-  right: 5px;
-  bottom: 5px;
 
+.icon {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
 }
